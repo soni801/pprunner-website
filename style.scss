@@ -31,4 +31,17 @@ video
     min-height: 100vh;
 }
 
-iframe { border: none; }
+iframe
+{
+    border: none;
+    aspect-ratio: 16/9;
+}
+
+a
+{
+    color: currentColor;
+    transition: 100ms ease;
+
+    &:hover { opacity: .7 }
+    &:active { opacity: .5 }
+}
